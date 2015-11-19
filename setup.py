@@ -9,17 +9,16 @@ structure. The module also provides a Scalable Bloom Filter that allows a
 bloom filter to grow without knowing the original set size.
 """
 
-CLASSIFIERS = filter(None, map(str.strip,
-"""
-Intended Audience :: Developers
-License :: OSI Approved :: MIT License
-Programming Language :: Python
-Programming Language :: Python :: 3",
-Operating System :: OS Independent
-Topic :: Utilities
-Topic :: Database :: Database Engines/Servers
-Topic :: Software Development :: Libraries :: Python Modules
-""".splitlines()))
+CLASSIFIERS = filter(None, map(str.strip, """
+        Intended Audience :: Developers
+        License :: OSI Approved :: MIT License
+        Programming Language :: Python
+        Programming Language :: Python :: 3,
+        Operating System :: OS Independent
+        Topic :: Utilities
+        Topic :: Database :: Database Engines/Servers
+        Topic :: Software Development :: Libraries :: Python Modules
+    """.splitlines()))
 
 setup(
     name="pybloom",
