@@ -50,3 +50,7 @@ functions.
     # len(sbf) may not equal the entire input length. 0.01% error is well
     # below the default 0.1% error threshold. As the capacity goes up, the
     # error will approach 0.1%.
+
+
+a mirror for v2.0 is available at: https://pypi.python.org/pypi/pybloom-mirror/2.0.0,
+the only different things is pypi install name.
